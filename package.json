@@ -1,0 +1,12 @@
+{
+  "name": "roulette-strategy-analyzer-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@google/genai": "^1.27.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.2.0",
+    "typescript": "^5.4.5"
+  }
+}
