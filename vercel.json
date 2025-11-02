@@ -1,10 +1,10 @@
 {
   "installCommand": "npm install",
-  "buildCommand": "npx tsc",
-  "functions": {
-    "api/**/*.ts": {
-      "runtime": "nodejs18.x"
+  "builds": [
+    {
+      "src": "api/**/*.ts",
+      "use": "@vercel/node"
     }
-  },
+  ],
   "outputDirectory": "."
 }
